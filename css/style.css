@@ -91,7 +91,6 @@ body {
 .link:hover::after,
 .link:focus::after {
   opacity: 1;
-  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -155,17 +154,6 @@ body {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-#mainmenu a {
-  color: red;
-  text-decoration: underline;
-}
-
-#mainmenu a.selected {
-  color: blue;
-  text-decoration: none;
-  pointer-events: none;
 }
 
 /* ---------------------------------------hero */
