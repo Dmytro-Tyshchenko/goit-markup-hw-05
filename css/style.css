@@ -91,6 +91,10 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.navigation-link .curr-color {
+  color: var(--accent-color);
+}
+
 .current::after {
   content: '';
   display: block;
